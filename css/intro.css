@@ -27,6 +27,7 @@ h1 {
   text-align: center;
   mix-blend-mode: difference;
   padding-top: 10px;
+  font-size: 2rem; /* 기본 폰트 크기 */
 }
 
 .profile {
@@ -106,11 +107,14 @@ footer {
     background: black;
     /* mix-blend-mode: normal; */
   }
-
+  h1 {
+    font-size: 1.5rem; /* 태블릿 및 작은 화면용 폰트 크기 */
+  }
   .profile {
     all: unset; /* 기존 스타일 초기화 */
   }
-  .profile-image, .profile-text {
+  .profile-image,
+  .profile-text {
     width: 100%;
     height: auto;
     display: block;
@@ -123,3 +127,5 @@ footer {
     margin-top: 30px;
   }
 }
+
+/* 헤드부분 길이 맞게 수정하고 싶디 핸드폰에서 보는거 */
