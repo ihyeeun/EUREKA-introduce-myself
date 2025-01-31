@@ -124,6 +124,7 @@ footer {
   img {
     width: 200px;
     height: 230px;
+    margin: 0px;
     margin-top: 30px;
   }
 }
