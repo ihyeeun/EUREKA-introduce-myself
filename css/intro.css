@@ -127,6 +127,9 @@ footer {
     margin: 0px;
     margin-top: 30px;
   }
+  footer {
+    height: 20px;
+  }
 }
 
 /* 헤드부분 길이 맞게 수정하고 싶디 핸드폰에서 보는거 */
